@@ -4,6 +4,7 @@ body {
   background-color: #0B3C5D;
   font-family: Fresca;
   margin: 0;
+  margin-bottom:80px;
 }
 
 header {
@@ -14,6 +15,8 @@ h1 {
   color: white;
   font-size: 128px;
   margin-bottom: 20px;
+  margin: 0;
+  padding: 15px;
 }
 
 table {
@@ -22,8 +25,8 @@ table {
   padding:10px;
   border-radius: 10px;
   margin-top: 20px;
-  margin-bottom:50px;
-  max-width:90%
+
+  max-width:90%;
 }
 
 button {
@@ -38,7 +41,7 @@ button:focus {
   outline: none;
 }
 
-th, tr, td {
+th, td {
   padding:10px;
 }
 
@@ -56,6 +59,7 @@ td {
 
 input[type="text"] {
   font-size: 1em;
+  margin-top: 20px
 }
 
 input:focus {
@@ -75,4 +79,8 @@ input:focus {
   text-align: center;
   margin:auto;
   justify-content: center;
+}
+
+#addToDo {
+  margin-left:5px;
 }
